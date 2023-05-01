@@ -1,0 +1,677 @@
+{
+  "predictions": [],
+  "teams": [
+    {
+      "name": "Team Liquid",
+      "tag": "Liquid",
+      "datdota_id": 2163,
+      "logo_id": "2026094195660244377",
+      "region": "weu"
+    },
+    {
+      "name": "Tundra Esports",
+      "tag": "Tundra",
+      "datdota_id": 8291895,
+      "logo_id": "2031716132171967904",
+      "region": "weu"
+    },
+    {
+      "name": "Gaimin Gladiators",
+      "tag": "TT",
+      "datdota_id": 8599101,
+      "logo_id": "1850419664501191993",
+      "region": "weu"
+    },
+    {
+      "name": "OG",
+      "tag": "OG",
+      "datdota_id": 2586976,
+      "logo_id": "862855679982708969",
+      "region": "weu"
+    },
+    {
+      "name": "Ooredoo Thunders",
+      "tag": "OT",
+      "datdota_id": 8894818,
+      "logo_id": "1974295387109460744",
+      "region": "weu"
+    },
+    {
+      "name": "Entity",
+      "tag": "ETG",
+      "datdota_id": 8605863,
+      "logo_id": "1816635640278661784",
+      "region": "weu"
+    },
+    {
+      "name": "Team Secret",
+      "tag": "Secret",
+      "datdota_id": 1838315,
+      "logo_id": "1848171366536285637",
+      "region": "weu"
+    },
+    {
+      "name": "D1 Hustlers",
+      "tag": "CHILLAX",
+      "datdota_id": 8597391,
+      "logo_id": "5095291632880656070",
+      "region": "weu"
+    },
+    {
+      "name": "Monaspa",
+      "tag": "MonaspA",
+      "datdota_id": 7300277,
+      "logo_id": "1714169270383928706",
+      "region": "weu"
+    },
+    {
+      "name": "Nigma Galaxy",
+      "tag": "Nigma",
+      "datdota_id": 7554697,
+      "logo_id": "1827894588975105240",
+      "region": "weu"
+    },
+    {
+      "name": "Ancient Tribe",
+      "tag": "GS",
+      "datdota_id": 8687717,
+      "logo_id": "1991184321454001998",
+      "region": "weu"
+    },
+    {
+      "name": "Alliance",
+      "tag": "Alliance",
+      "datdota_id": 111474,
+      "logo_id": "255967725890131816",
+      "region": "weu"
+    },
+    {
+      "name": "ITB.Shuffle",
+      "tag": "ChF",
+      "datdota_id": 8390848,
+      "logo_id": "2033971688891717612",
+      "region": "weu"
+    },
+    {
+      "name": "PuckChamp",
+      "tag": "PC",
+      "datdota_id": 8261648,
+      "logo_id": "1883081308671045364",
+      "region": "weu"
+    },
+    {
+      "name": "weu Div 2 team #1",
+      "tag": "weu#1",
+      "datdota_id": -9,
+      "logo_id": "unknown",
+      "region": "weu"
+    },
+    {
+      "name": "weu Div 2 team #2",
+      "tag": "weu#2",
+      "datdota_id": -8,
+      "logo_id": "unknown",
+      "region": "weu"
+    },
+    {
+      "name": "9Pandas",
+      "tag": "HR",
+      "datdota_id": 7422789,
+      "logo_id": "2051995054798077075",
+      "region": "eeu"
+    },
+    {
+      "name": "Team Spirit",
+      "tag": "TSpirit",
+      "datdota_id": 7119388,
+      "logo_id": "1839179120711951766",
+      "region": "eeu"
+    },
+    {
+      "name": "BetBoom Team",
+      "tag": "Unique",
+      "datdota_id": 8255888,
+      "logo_id": "2037351993974889309",
+      "region": "eeu"
+    },
+    {
+      "name": "Virtus.pro",
+      "tag": "VP",
+      "datdota_id": 8724984,
+      "logo_id": "1796396122320355023",
+      "region": "eeu"
+    },
+    {
+      "name": "One Move",
+      "tag": "ProstiEsli",
+      "datdota_id": 8376696,
+      "logo_id": "1857183850310080331",
+      "region": "eeu"
+    },
+    {
+      "name": "HYDRA",
+      "tag": "HYDRA",
+      "datdota_id": 8588969,
+      "logo_id": "1977673132002351940",
+      "region": "eeu"
+    },
+    {
+      "name": "Nemiga Gaming",
+      "tag": "Nemiga",
+      "datdota_id": 5014799,
+      "logo_id": "1761446291384253796",
+      "region": "eeu"
+    },
+    {
+      "name": "UALEIKUMNIHAO",
+      "tag": "UALEIKUM",
+      "datdota_id": 9019673,
+      "logo_id": "1996822065613933361",
+      "region": "eeu"
+    },
+    {
+      "name": "Natus Vincere",
+      "tag": "Na`Vi",
+      "datdota_id": 36,
+      "logo_id": "1835776613064898878",
+      "region": "eeu"
+    },
+    {
+      "name": "Darkside",
+      "tag": "Darkside",
+      "datdota_id": 8944440,
+      "logo_id": "2014835196546308154",
+      "region": "eeu"
+    },
+    {
+      "name": "Team Sexy",
+      "tag": "",
+      "datdota_id": 8975678,
+      "logo_id": "2029472529806585561",
+      "region": "eeu"
+    },
+    {
+      "name": "NAVI Junior",
+      "tag": "NAVIj",
+      "datdota_id": 9017006,
+      "logo_id": "2037353829143019867",
+      "region": "eeu"
+    },
+    {
+      "name": "YNT",
+      "tag": "CIS",
+      "datdota_id": 8598633,
+      "logo_id": "2021594397761808667",
+      "region": "eeu"
+    },
+    {
+      "name": "cybercats",
+      "tag": "^._.^= \u222b ",
+      "datdota_id": 8545488,
+      "logo_id": "1824528943478575817",
+      "region": "eeu"
+    },
+    {
+      "name": "eeu Div 2 team #1",
+      "tag": "eeu#1",
+      "datdota_id": -19,
+      "logo_id": "unknown",
+      "region": "eeu"
+    },
+    {
+      "name": "eeu Div 2 team #2",
+      "tag": "eeu#2",
+      "datdota_id": -18,
+      "logo_id": "unknown",
+      "region": "eeu"
+    },
+    {
+      "name": "TSM",
+      "tag": "UND",
+      "datdota_id": 8260983,
+      "logo_id": "1996813186806561034",
+      "region": "na"
+    },
+    {
+      "name": "Shopify Rebellion",
+      "tag": "EG",
+      "datdota_id": 39,
+      "logo_id": "2009201438099875169",
+      "region": "na"
+    },
+    {
+      "name": "nouns",
+      "tag": "nouns",
+      "datdota_id": 8728920,
+      "logo_id": "1861686187975269057",
+      "region": "na"
+    },
+    {
+      "name": "B8",
+      "tag": "Hustler",
+      "datdota_id": 8376426,
+      "logo_id": "2030594077477371362",
+      "region": "na"
+    },
+    {
+      "name": "felt",
+      "tag": "felt",
+      "datdota_id": 8261882,
+      "logo_id": "1755809001572876579",
+      "region": "na"
+    },
+    {
+      "name": "DogChamp",
+      "tag": "Dog",
+      "datdota_id": 8604954,
+      "logo_id": "1858313783662516620",
+      "region": "na"
+    },
+    {
+      "name": "SAND KING G\u00d3MEZ",
+      "tag": "SKG",
+      "datdota_id": 7626304,
+      "logo_id": "2077888936797748911",
+      "region": "na"
+    },
+    {
+      "name": "ALPHA",
+      "tag": "ALPHA",
+      "datdota_id": 8740972,
+      "logo_id": "1847052160668484986",
+      "region": "na"
+    },
+    {
+      "name": "5RATFORCESTAFF",
+      "tag": "5RF",
+      "datdota_id": 8607159,
+      "logo_id": "1832398188596800021",
+      "region": "na"
+    },
+    {
+      "name": "Wildcard",
+      "tag": "KBU.US",
+      "datdota_id": 8606828,
+      "logo_id": "5105424732072463157",
+      "region": "na"
+    },
+    {
+      "name": "CDUB Esports",
+      "tag": "TMM",
+      "datdota_id": 8686313,
+      "logo_id": "1717581067591753717",
+      "region": "na"
+    },
+    {
+      "name": "Another NA Team",
+      "tag": "5mm",
+      "datdota_id": 8230115,
+      "logo_id": "1986680382277795277",
+      "region": "na"
+    },
+    {
+      "name": "The Cut",
+      "tag": "TC",
+      "datdota_id": 8205424,
+      "logo_id": "1647718150508756948",
+      "region": "na"
+    },
+    {
+      "name": "TiltedBoys",
+      "tag": "TB",
+      "datdota_id": 7584152,
+      "logo_id": "2019341966466734644",
+      "region": "na"
+    },
+    {
+      "name": "na Div 2 team #1",
+      "tag": "na#1",
+      "datdota_id": -29,
+      "logo_id": "unknown",
+      "region": "na"
+    },
+    {
+      "name": "na Div 2 team #2",
+      "tag": "na#2",
+      "datdota_id": -28,
+      "logo_id": "unknown",
+      "region": "na"
+    },
+    {
+      "name": "beastcoast",
+      "tag": "bc",
+      "datdota_id": 8254400,
+      "logo_id": "2008072595679478968",
+      "region": "sa"
+    },
+    {
+      "name": "Evil Geniuses",
+      "tag": "SG",
+      "datdota_id": 8255756,
+      "logo_id": "1983302387907692940",
+      "region": "sa"
+    },
+    {
+      "name": "Thunder Awaken",
+      "tag": "ThunderP",
+      "datdota_id": 7391077,
+      "logo_id": "1934884345503908192",
+      "region": "sa"
+    },
+    {
+      "name": "Infinity",
+      "tag": "BINOMISTAS",
+      "datdota_id": 8375259,
+      "logo_id": "2012577143832299242",
+      "region": "sa"
+    },
+    {
+      "name": "Infamous R",
+      "tag": "Infinity",
+      "datdota_id": 8118197,
+      "logo_id": "2038480362098301648",
+      "region": "sa"
+    },
+    {
+      "name": "Hokori",
+      "tag": "EGO",
+      "datdota_id": 7119077,
+      "logo_id": "2011451667192331191",
+      "region": "sa"
+    },
+    {
+      "name": "Mad Kings Esports",
+      "tag": "MK",
+      "datdota_id": 8740097,
+      "logo_id": "1841423145079450083",
+      "region": "sa"
+    },
+    {
+      "name": "Balrogs  Esports\u2122",
+      "tag": "Balrogs\u2122",
+      "datdota_id": 8856662,
+      "logo_id": "1889848889146357473",
+      "region": "sa"
+    },
+    {
+      "name": "Vivo Keyd Stars",
+      "tag": "",
+      "datdota_id": 1061269,
+      "logo_id": "5095292505104094637",
+      "region": "sa"
+    },
+    {
+      "name": "Qhali",
+      "tag": "South - T",
+      "datdota_id": 8702318,
+      "logo_id": "1745728629072594666",
+      "region": "sa"
+    },
+    {
+      "name": "Lava Esports",
+      "tag": "Lava",
+      "datdota_id": 8737621,
+      "logo_id": "2020458443820677798",
+      "region": "sa"
+    },
+    {
+      "name": "x5 Gaming",
+      "tag": "x5",
+      "datdota_id": 8971308,
+      "logo_id": "2062124990905724494",
+      "region": "sa"
+    },
+    {
+      "name": "Infamous Gaming",
+      "tag": "Infamous",
+      "datdota_id": 2672298,
+      "logo_id": "1824542256091241816",
+      "region": "sa"
+    },
+    {
+      "name": "Dreamers Esports",
+      "tag": "Vendetta",
+      "datdota_id": 8680612,
+      "logo_id": "1990058421553897788",
+      "region": "sa"
+    },
+    {
+      "name": "sa Div 2 team #1",
+      "tag": "sa#1",
+      "datdota_id": -39,
+      "logo_id": "unknown",
+      "region": "sa"
+    },
+    {
+      "name": "sa Div 2 team #2",
+      "tag": "sa#2",
+      "datdota_id": -38,
+      "logo_id": "unknown",
+      "region": "sa"
+    },
+    {
+      "name": "Talon",
+      "tag": "TLN",
+      "datdota_id": 8597976,
+      "logo_id": "2028347991408203552",
+      "region": "sea"
+    },
+    {
+      "name": "Execration",
+      "tag": "XctN",
+      "datdota_id": 8254145,
+      "logo_id": "2024966396057134788",
+      "region": "sea"
+    },
+    {
+      "name": "Team SMG",
+      "tag": "SMG",
+      "datdota_id": 8244493,
+      "logo_id": "1856049226625971775",
+      "region": "sea"
+    },
+    {
+      "name": "Army Geniuses",
+      "tag": "AG",
+      "datdota_id": 8261554,
+      "logo_id": "2036229291620856332",
+      "region": "sea"
+    },
+    {
+      "name": "Blacklist Rivalry",
+      "tag": "Chubby",
+      "datdota_id": 8668460,
+      "logo_id": "2050860821377863997",
+      "region": "sea"
+    },
+    {
+      "name": "BLEED",
+      "tag": "T1",
+      "datdota_id": 8214850,
+      "logo_id": "2006947644943957586",
+      "region": "sea"
+    },
+    {
+      "name": "BOOM Esports",
+      "tag": "BOOM",
+      "datdota_id": 7732977,
+      "logo_id": "768365068750604173",
+      "region": "sea"
+    },
+    {
+      "name": "Xerxia",
+      "tag": "MIPH",
+      "datdota_id": 8736661,
+      "logo_id": "1899975198387120959",
+      "region": "sea"
+    },
+    {
+      "name": "Geek Slate",
+      "tag": "lg",
+      "datdota_id": 8169775,
+      "logo_id": "5103172932233446011",
+      "region": "sea"
+    },
+    {
+      "name": "Polaris Esports",
+      "tag": "Polaris",
+      "datdota_id": 8525778,
+      "logo_id": "1831290045925630948",
+      "region": "sea"
+    },
+    {
+      "name": "UD VESSUWAN",
+      "tag": "NGX",
+      "datdota_id": 8572181,
+      "logo_id": "5084032633793520363",
+      "region": "sea"
+    },
+    {
+      "name": "IHC Esports",
+      "tag": "QWE",
+      "datdota_id": 9005019,
+      "logo_id": "2067757007450984921",
+      "region": "sea"
+    },
+    {
+      "name": "Horizon",
+      "tag": "Fnatic",
+      "datdota_id": 350190,
+      "logo_id": "2044113417902897135",
+      "region": "sea"
+    },
+    {
+      "name": "Myth Avenue Gaming",
+      "tag": "Drink",
+      "datdota_id": 8944302,
+      "logo_id": "2077887587643978863",
+      "region": "sea"
+    },
+    {
+      "name": "sea Div 2 team #1",
+      "tag": "sea#1",
+      "datdota_id": -49,
+      "logo_id": "unknown",
+      "region": "sea"
+    },
+    {
+      "name": "sea Div 2 team #2",
+      "tag": "sea#2",
+      "datdota_id": -48,
+      "logo_id": "unknown",
+      "region": "sea"
+    },
+    {
+      "name": "Xtreme Gaming",
+      "tag": "XG",
+      "datdota_id": 8261500,
+      "logo_id": "2023835418754383891",
+      "region": "cn"
+    },
+    {
+      "name": "PSG.LGD",
+      "tag": "PSG.LGD",
+      "datdota_id": 15,
+      "logo_id": "1768194395980560504",
+      "region": "cn"
+    },
+    {
+      "name": "INVICTUS GAMING",
+      "tag": "iG",
+      "datdota_id": 5,
+      "logo_id": "975479762873971573",
+      "region": "cn"
+    },
+    {
+      "name": "Team Aster",
+      "tag": "Aster",
+      "datdota_id": 6209166,
+      "logo_id": "1629730253163462144",
+      "region": "cn"
+    },
+    {
+      "name": "Aster.Aries",
+      "tag": "Aries",
+      "datdota_id": 7453020,
+      "logo_id": "1021697620249691876",
+      "region": "cn"
+    },
+    {
+      "name": "Ybb Gaming",
+      "tag": "",
+      "datdota_id": 8574561,
+      "logo_id": "1742350376840285855",
+      "region": "cn"
+    },
+    {
+      "name": "Piggy Killer",
+      "tag": "",
+      "datdota_id": 9017079,
+      "logo_id": "2008080431591762816",
+      "region": "cn"
+    },
+    {
+      "name": "Team Bright",
+      "tag": "",
+      "datdota_id": 9018664,
+      "logo_id": "2008081064641074125",
+      "region": "cn"
+    },
+    {
+      "name": "Vici Gaming",
+      "tag": "VG",
+      "datdota_id": 726228,
+      "logo_id": "1841426000752906741",
+      "region": "cn"
+    },
+    {
+      "name": "Outsiders From CN",
+      "tag": "OFC",
+      "datdota_id": 8936210,
+      "logo_id": "2028342277680788691",
+      "region": "cn"
+    },
+    {
+      "name": "Supernova",
+      "tag": "Nova",
+      "datdota_id": 8943671,
+      "logo_id": "2022709518835895061",
+      "region": "cn"
+    },
+    {
+      "name": "Meteor Gaming",
+      "tag": "",
+      "datdota_id": 7356881,
+      "logo_id": "1925880768489629203",
+      "region": "cn"
+    },
+    {
+      "name": "Poke Gaming",
+      "tag": "DEC",
+      "datdota_id": 8582076,
+      "logo_id": "2000191359042669506",
+      "region": "cn"
+    },
+    {
+      "name": "cactus",
+      "tag": "1",
+      "datdota_id": 9018710,
+      "logo_id": "2030601882549458670",
+      "region": "cn"
+    },
+    {
+      "name": "cn Div 2 team #1",
+      "tag": "cn#1",
+      "datdota_id": -59,
+      "logo_id": "unknown",
+      "region": "cn"
+    },
+    {
+      "name": "cn Div 2 team #2",
+      "tag": "cn#2",
+      "datdota_id": -58,
+      "logo_id": "unknown",
+      "region": "cn"
+    }
+  ]
+}
