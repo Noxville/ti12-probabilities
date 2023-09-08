@@ -63,16 +63,16 @@
                     <th data-field="_13-16th" data-formatter="percentFormatter" data-cell-style="gradientStyler4"
                         data-sortable="true">13-16th
                     </th>
-                    <th data-field="_17-18th" data-formatter="percentFormatter" data-cell-style="gradientStyler2"
-                        data-sortable="true">17-18th
+                    <th data-field="_17-20th" data-formatter="percentFormatter" data-cell-style="gradientStyler2"
+                        data-sortable="true">17-20th
                     </th>
 <!--                    <th data-field="_19-20th" data-formatter="percentFormatter" data-cell-style="gradientStyler2"-->
 <!--                        data-sortable="true">19-20th-->
 <!--                    </th>-->
-                    <th data-field="_qualify_somehow" data-formatter="percentFormatter"
-                        data-cell-style="gradientStyler2"
-                        data-sortable="true">Qualify <br> Somehow
-                    </th>
+<!--                    <th data-field="_qualify_somehow" data-formatter="percentFormatter"-->
+<!--                        data-cell-style="gradientStyler2"-->
+<!--                        data-sortable="true">Qualify <br> Somehow-->
+<!--                    </th>-->
                     <th data-field="_points_qual" data-formatter="percentFormatter" data-cell-style="gradientStyler512"
                         data-sortable="true">Qualify via<br> Points
                     </th>
@@ -259,6 +259,7 @@
             '13-16th': 0.015,
             '17-18th': 0.0025,
             '19-20th': 0.0025,
+            '17-20th': 0.0025,
             'elim_wc': 0.00,
             'points_qual': 0.00,
             'reg_qual': 0.00,
@@ -298,7 +299,7 @@
                 team_map[team_name].expected_earnings = Array(num_preds).fill(0);
                 team_region[team_name] = t['region'];
             });
-
+            
             let togo = num_preds; // counter for how many async tasks must finish before rendering
 
             _idx['predictions'].forEach(function (prediction_file, i) {
@@ -322,7 +323,9 @@
                             let dollars = 0.0;
                             for (const [place, percent] of Object.entries(prize_percent)) {
                                 let probability = prediction['team_outcomes'][tn][place] / prediction['iterations'];
-                                dollars += (prize_pool * percent * probability)
+                                if (!isNaN(probability)) {
+                                    dollars += (prize_pool * percent * probability)
+                                }
                             }
                             team_map[tn]['expected_earnings'][i] = dollars | 0;
                         }
@@ -345,13 +348,13 @@
                             Object.keys(prize_percent).forEach(function (place) {
                                 if (t.name in prediction['team_outcomes']) {
                                     let odd = (prediction['team_outcomes'][t.name][place] / prediction['iterations'])
+                                    odd = isNaN(odd) ? 0.0 : odd
                                     blob["_" + place] = odd;
                                     ee += prize_pool * odd * prize_percent[place];
                                 }
                             })
                             blob["_qualify_somehow"] = blob['_points_qual'] + blob['_reg_qual'] + blob['_wc_qual'];
                             blob.expected_earnings = ee;
-
                             table_data.push(blob);
                         })
 
@@ -399,6 +402,7 @@
                         const filtered_kvs = team_kvs.filter(([key, value]) => value.expected_earnings[value.expected_earnings.length - 1] > 1);
                         team_map = Object.fromEntries(filtered_kvs);
                         table_data = table_data.filter(t => t.expected_earnings > 1)
+                        
 
                         set_updated_at(updated_at);
                         set_comment_of(comment_of);
@@ -407,8 +411,8 @@
                         render_region_winner_graph(region_data);
                         render_points_threshold_graph(qualifying_points);
                         render_outcomes_table(table_data);
-                        render_group('group-a', gr_a);
-                        render_group('group-b', gr_b);
+                        //render_group('group-a', gr_a);
+                        //render_group('group-b', gr_b);
                     }
                 });
             });
